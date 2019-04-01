@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+#game-screen {
+    display: block;
+}
+#startMenu{
+    position: absolute;
+    background-color: aqua;
+}
+#gameOver{
+    position: absolute;
+    visibility: hidden;
+}
+#playHUD{
+    position: absolute;
+}
+h1,h2,h3{
+    font-family: monospace;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.title{
+    margin:0;
+    font-size: 46px;
+}
+#startButton{
+    border: 3px solid black;
+    border-radius: 10px
+}
+#startButton:hover{
+    background-color: white;
+}
+#restartButton{
+    border: 3px solid black;
+    border-radius: 10px
+}
+#restartButton:hover{
+    background-color: white;
+}
